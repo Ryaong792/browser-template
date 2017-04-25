@@ -2,12 +2,6 @@
 
 const animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend'
 
-$('.test').on('click', function () {
-  $('.test').addClass('animated bounceOutLeft').one(animationEnd, function () {
-    $(this).removeClass('animated bounceOutLeft')
-  })
-})
-
 // **** LOGIN BUTTONS / WECLOME WINDOW! ****
 
 // ****login****
